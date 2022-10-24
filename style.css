@@ -1,0 +1,16 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #DDD;
+}
+
+.card {
+    --width: 10em;
+    --height: calc(var(--width) * 1.4);
+    width: var(--width);
+    height: var(--height);
+    background-color: white;
+    border: 1px solid black;
+}
